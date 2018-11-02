@@ -51,7 +51,7 @@ class User < ApplicationRecord
   def send_activation_email
     UserMailer.account_activation(self).deliver_now
   end
-  
+
   # パスワード再設定の属性を設定する
   def create_reset_digest
     self.reset_token = User.new_token
@@ -64,7 +64,6 @@ class User < ApplicationRecord
     UserMailer.password_reset(self).deliver_now
   end
 
-  
   private
 
     # メールアドレスをすべて小文字にする
