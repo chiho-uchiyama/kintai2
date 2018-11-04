@@ -29,7 +29,6 @@ class UsersController < ApplicationController
   
   def index
     @users = User.paginate(page: params[:page])
-   
   end
   
   def update
@@ -41,11 +40,11 @@ class UsersController < ApplicationController
       render 'edit'
     end
     
-    def destroy
+  def destroy
     User.find(params[:id]).destroy
     flash[:success] = "User deleted"
     redirect_to users_url
-    end
+  end
   end
 
   private
