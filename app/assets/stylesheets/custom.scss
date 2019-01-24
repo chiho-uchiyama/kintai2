@@ -295,10 +295,73 @@ span.picture {
   }
 }
 
+/* index.html.erb 勤怠管理表　*/
 
+.users {
+  
+  #tbl-bdr table,#tbl-bdr td,#tbl-bdr th {
+    border-collapse: collapse;
+    border:1px solid #000000;
+    margin-bottom: 50px;
+    }
+    
+   .example1 {
+     padding:10px;
+     width: 500px;
+     text-align: center;
+     }
+   
+   .example2 {
+     padding:10px;
+     width: 30%;
+     text-align: center;
+     } 
+   
+   .example3 {
+     padding:10px;
+     width: 30%px;
+     text-align: center;
+     } 
+     
+    .example4 {
+     padding:10px;
+     text-align: center;
+     }  
+     
+     .example5 {
+     padding:10px;
+     text-align: center;
+     }  
+  }
+　
+　#tbl-bdr1 table,#tbl-bdr1 td,#tbl-bdr1 th {
+    border-collapse: collapse;
+    border:1px solid #000000;
+    }
+    
+    .item1 {
+     text-align: center;
+     width: 60px;
+    }
+    
+    .item2 {
+     text-align: center;
+     width: 60px;
+    }
 
+    .item3 {
+     text-align: center;
+     width: 70px;
+    }
+    
+    .item7 {
+     text-align: center;
+     width: 35px;
+    }
+    
 /* 5.1.2
 img {
   display: none;
 }
 */
+
